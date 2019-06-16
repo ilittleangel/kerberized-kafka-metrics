@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kafka-metrics
+  namespace: dev
+spec:
+  containers:
+    - name: kafka-metrics
+      image: registry/kafka-metrics:1.0
